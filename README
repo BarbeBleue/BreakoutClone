@@ -1,0 +1,45 @@
+#Clone de Breakout/Arkanoid sur Unreal Engine 4/Blueprints
+
+TP3 8INF955
+
+LAHOUEL Belkacem LAHB12089400
+RABILLER Donatien RABD28119302
+
+
+Fonctionnalités supplémentaires :
+Couleur de la brique en fonction de sa position
+Vie en fonction de la hauteur
+Perdre est possible (et destruction balle si oui)
+Affichage du nombre de vies joueur
+Affichage "Game Over"
+Affichage score
+Son après points
+Points = fonction de la vie de la brique détruite
+Son après mort
+Intensité de la couleur des briques = fonction de sa vie par rapport à sa vie maximale
+
+
+
+------------------- Log
+OK   : dégradé de couleurs
+
+TODO : perdre devient possible et differentes vies pour les briques	«
+
+OK   : differentes vies pour les briques
+
+BUG  : Par contre, parfois il y a un bug au niveau des collisions:
+	au lieu de collisionner et de retomber, la brique disparaît
+	et la balle la traverse
+
+OK   : destroying ball after hitting bottom (approx)
+
+TODO : respawn ball after hit bot ?
+TODO : interface graphique pour le nombre de vies + game over		«
+TODO : point sound when making points					«
+TODO : points ++ when destroying top bricks				«
+
+OK   : GUI for life + GAME OVER
+OK   : point sound
+OK   : points ++ with height
+
+OK   : couleurs = f(dmg)
